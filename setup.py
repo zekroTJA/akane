@@ -3,11 +3,10 @@ import setuptools
 with open('README.md', encoding='utf-8') as f:
     long_desc = f.read()
 
-with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
+requirements = ["rich"]
 
 setuptools.setup(
-    version="1.0.0",
+    version="1.0.1",
     name="akane",
     author="zekro",
     author_email="contact@zekro.de",
